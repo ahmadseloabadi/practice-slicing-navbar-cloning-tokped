@@ -1,0 +1,143 @@
+.custom-navbar {
+  width: 100%;
+}
+
+.navbar-top {
+  padding: 8px 32px;
+  background-color: #f0f3f7;
+}
+
+.navbar-top .right-menu {
+  display: flex;
+  gap: 32px;
+}
+.navbar-top span {
+  color: #79838f;
+  font-size: 12px;
+  line-height: 31px;
+}
+
+.navbar-top span:hover {
+  color: #03ac0e;
+  cursor: pointer;
+}
+
+.navbar-top img {
+  width: 14px;
+  margin-right: 5px;
+}
+
+.navbar-mid {
+  padding: 8px 32px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px -1px;
+}
+
+.navbar-mid .img-tokopedia {
+  width: 150px;
+}
+
+.navbar-mid .text-kategori {
+  padding: 2px 5px;
+}
+
+.navbar-mid .text-kategori:hover {
+  background-color: #f3f4f5 !important;
+  cursor: pointer !important;
+  color: #03ac0e;
+  border-radius: 5px;
+}
+
+.img-search,
+.icon-notif img {
+  width: 24px;
+  height: 24px;
+}
+.navbar-mid .nav-search {
+  display: inline-flex;
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 35px;
+}
+
+.navbar-mid .nav-search .icon-search {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 10px;
+  height: 100%;
+  width: 4%;
+}
+
+.navbar-mid .nav-search .form-control {
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+.navbar-mid .nav-search .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #03ac0e;
+}
+
+.navbar-mid .icon-notif {
+  position: relative;
+  align-items: center;
+}
+
+.icon-count {
+  position: absolute;
+  top: 0;
+  padding: 0px 4px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 10px;
+  color: white;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-mid .toko,
+.navbar-mid .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-mid .toko img,
+.navbar-mid .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.line {
+  font-size: 26px;
+  color: #cdcdcd;
+  font-weight: 100;
+}
+
+.navbar-bot {
+  margin-left: 14.5%;
+}
+
+.navbar-bot img {
+  width: 16px;
+  height: 16px;
+}
+
+.navbar-bot span {
+  color: #79838f;
+}
+
+.navbar-bot span:hover {
+  color: #03ac0e;
+  cursor: pointer;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
